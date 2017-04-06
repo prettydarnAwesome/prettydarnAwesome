@@ -1,0 +1,116 @@
+.cards {
+  border: 1px solid #eee;
+  width: 885px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 4px;
+}
+
+.header {
+  border: 1px solid #eee;
+  width: 885px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 4px;
+  
+  color: #555;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer {
+  background-color: #000;
+  border: 1px solid #eee;
+  width: 885px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 4px;
+  
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer:hover {
+  color: #FFEB3B;
+}
+
+.footer:active {
+  color: #444;
+  background-color: #FFEB3B !important;
+}
+
+.cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  margin-right: 25px;
+  border: 1px solid #eee;
+  width: 275px;
+  height: 400px;  
+  color: #555;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  float: left;
+}
+.card:last-child {
+  margin-right: 0px;
+}
+
+.card-header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #eee;
+  height: 40px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-header[data-category="time-signature"] {
+  background-color: #E91E63;
+}
+.card-header[data-category="channels"] {
+  background-color: #9C27B0;
+}
+.card-header[data-category="instrument"][data-instrument-modifier="without"] {
+  background-color: #673AB7;
+}
+.card-header[data-category="instrument"][data-instrument-modifier="only"] {
+  background-color: #2196F3;
+}
+.card-header[data-category="instrument"] {
+  background-color: #00BCD4;
+}
+.card-header[data-category="key-change"] {
+  background-color: #4CAF50;
+}
+.card-header[data-category="tempo-change"] {
+  background-color: #8BC34A;
+}
+.card-header[data-category="time-signature-change"] {
+  background-color: #607D8B;
+}
+.card-header[data-category="exclude-note"] {
+  background-color: #CDDC39;
+}
+.card-header[data-category="key"] {
+  background-color: #FFC107;
+}
+.card-header[data-category="mode"] {
+  background-color: #FF9800;
+}
+.card-header[data-category="misc"] {
+  background-color: #FF5722;
+}
